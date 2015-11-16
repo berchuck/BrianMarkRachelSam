@@ -1,0 +1,141 @@
+% This is a comment. Comments start with %.
+
+\documentclass[12pt]{article} % This gives some default settings for the 
+% document. The [12pt] option should normally be omitted.
+
+\usepackage{amscd} \usepackage{amsmath}
+\usepackage{amsthm} \usepackage{amssymb} \usepackage{eufrak}
+\usepackage{hyperref} \usepackage{float}
+\usepackage{graphicx}
+\usepackage{fullpage}
+%\usepackage[lmargin=1in,rmargin=1in]{geometry}
+\usepackage{multirow} \usepackage{rotating}
+\usepackage{wrapfig}
+\usepackage{ifpdf}
+\usepackage{setspace}
+\usepackage{latexsym,amssymb,amsmath,amsfonts,graphicx,color,fancyvrb,amsthm,enumerate,natbib}
+\usepackage{booktabs}
+
+
+% These are some add-on packages that add functionality. For example, 
+% amsmath adds some symbols, while hyperref adds support for hyperlinks.
+% You must install some of these packages yourself; google "latex hyperref"
+% for example, to find instructions.
+
+
+%This paper explores ... a type of model... (more statistics, rather than application)
+
+
+\theoremstyle{plain}
+\newtheorem{postulate}{Postulate} \newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition} 
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{conjecture}[theorem]{Conjecture}
+% Defines theorem-type environments. The [section] above says to number
+% theorems using the section number. The [theorem] options below that
+% says to use the same numbering scheme for the other environments. That
+% is, if there is a lemma then a theorem in section 2, then these would
+% be Lemma 2.1 and Theorem 2.2 respectively.
+
+\theoremstyle{definition} 
+\newtheorem{definition}[theorem]{Definition}
+% This option makes definitions look different, but the numbering is 
+% consistent with the other environments.
+
+\theoremstyle{remark} 
+\newtheorem{remark}[theorem]{Remark} 
+
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+% Defines some new commands. For example, \R in a math environment ($\R$) 
+% gives the R which represents the real numbers.
+
+
+\begin{document}
+
+\section*{Conditionally autoregressive (CAR) model}
+
+\subsection*{Introduction to model}
+
+Define the outcome variable, $Y_{i}$, as the alcohol sales for county $i$ in Pennsylvania (PA), $i=1,\ldots,n$, where $n$ is the number of counties (67). Then, we will specify the following model,
+$$Y_{i}=X_{i}^T\boldsymbol{\beta}+\theta_i+\epsilon_i, \quad i=1,\ldots,n$$
+where, $X_i$ is a $p \times 1$ vector of county specific covariates, $\boldsymbol{\beta}$ is a $p \times 1$ vector of coefficient parameters, $\theta_i$ is a location specific intercept and $\epsilon_i \stackrel{\text{iid}}{\sim}\text{N}\left(0,\sigma^2\right)$. 
+
+We will control for spatial dependency through specification of the distribution of $\theta_i$. If we define, $\boldsymbol{\theta}=[\theta_1,\ldots,\theta_n]^T$, then we can specify a conditionally autoregressive (CAR) prior with joint specification given by,
+$$f\left(\boldsymbol{\theta}|\tau^2\right)\sim {CAR}(\tau^2) \propto \exp\left\{-\frac{\boldsymbol{\theta}^T\mathbf{W}^*\boldsymbol{\theta}}{2\tau^2}\right\},$$
+where the components of $\mathbf{W}^*$ are defined as $[\mathbf{W}^*]_{ij}=-w_{ij}$ for $i \neq j$ and $[\mathbf{W}^*]_{ii}=\sum_{j=1}^n w_{ij}$, with $w_{ij}$ being the components of the neighborhood adjacency matrix $\mathbf{W}$ (i.e. $w_{ij}=1(i\sim j)$, where $i\sim j$ indicates locations $i$ and $j$ are adjacent). The CAR prior is best interpreted in its' conditional formulation, however for computational purposes we will work with the joint specification. For insight, the conditional specification can be written as follows,
+$$\theta_i | \theta_{\delta_i},\tau^2 \sim \text{N}\left(\frac{\sum_{j=1}^n w_{ij}\theta_i}{\sum_{j=1}^n w_{ij}},\frac{\tau^2}{\sum_{j=1}^n w_{ij}}\right),$$
+where $\delta_i$ is the set of all neighbors of location $i$. This conditional specification demonstrates that each location specific intercept, $\theta_i$, is a weighted average of its' neighbors, with variance shrinking as the number of neighbors increases.
+
+Before proceeding, we will rewrite the model in matrix formulation,
+$$\mathbf{Y}=\mathbf{X}\boldsymbol{\beta}+\boldsymbol{\theta}+\boldsymbol{\epsilon},$$
+where $\mathbf{Y}=[Y_1,\ldots,Y_n]^T$, $\mathbf{X}=[X_1,\ldots,X_n]^T$ and $\boldsymbol{\epsilon}\sim \text{N}\left(\boldsymbol{0}_n,\sigma^2 \mathbf{I}_n\right)$. This induces the following joint likelihood,
+$$f\left(\mathbf{Y}|\boldsymbol{\theta},\boldsymbol{\beta},\sigma^2\right) \sim \text{N}\left(\mathbf{X}\boldsymbol{\beta}+\boldsymbol{\theta},\sigma^2 \mathbf{I}_n\right).$$
+We can now write the full data likelihood,
+\begin{align*}
+f\left(\mathbf{Y},\boldsymbol{\theta},\boldsymbol{\beta},\sigma^2,\tau^2\right) &\propto f\left(\mathbf{Y}|\boldsymbol{\theta},\boldsymbol{\beta},\sigma^2,\tau^2\right) \times f\left(\boldsymbol{\theta},\boldsymbol{\beta},\sigma^2,\tau^2\right)\\
+&\propto f\left(\mathbf{Y}|\boldsymbol{\theta},\boldsymbol{\beta},\sigma^2\right) \times f\left(\boldsymbol{\theta}|\tau^2\right) \times f\left(\boldsymbol{\beta},\sigma^2,\tau^2\right).
+\end{align*}
+
+\subsection*{Prior specification}
+
+To complete the Bayesian framework we must specify a form for our joint prior, $f\left(\boldsymbol{\beta},\sigma^2,\tau^2\right)$. In order to ease computation, we will specify independent priors, such that $f\left(\boldsymbol{\beta},\sigma^2,\tau^2\right)=f\left(\boldsymbol{\beta}\right)f\left(\sigma^2\right)f\left(\tau^2\right)$. Then, priors are specified as follows,
+$$\boldsymbol{\beta} \sim \text{N}\left(\boldsymbol{0}_p,\sigma_{\beta}^2 \mathbf{I}_p\right),\quad \sigma^2 \sim \text{IG}\left(\alpha_{\sigma},\beta_{\sigma}\right),\quad \tau^2 \sim \text{IG}\left(\alpha_{\tau},\beta_{\tau}\right).$$
+Now, we can write down the full conditionals for use in MCMC.
+
+\subsection*{Full conditionals}
+
+\subsubsection*{Derivation for $\boldsymbol{\theta}$}
+
+First, define $\boldsymbol{\gamma}=\mathbf{Y}-\mathbf{X}\boldsymbol{\beta}$. Then, we can derive the full conditional as follows,
+\begin{align*}
+f\left(\boldsymbol{\theta}|\mathbf{Y},\boldsymbol{\beta},\sigma^2,\tau^2\right) &\propto f\left(\mathbf{Y}|\boldsymbol{\theta},\boldsymbol{\beta},\sigma^2\right) \times f(\boldsymbol{\theta}|\tau^2)\\
+&\propto \exp\left\{-\frac{1}{2}\left[\frac{\left(\boldsymbol{\gamma}-\boldsymbol{\theta}\right)^T\mathbf{I}_n\left(\boldsymbol{\gamma}-\boldsymbol{\theta}\right)}{\sigma^2}+\frac{\boldsymbol{\theta}^T \mathbf{W}^*\boldsymbol{\theta}}{\tau^2} \right] \right\}\\
+&\propto \exp\left\{-\frac{1}{2}\left[\boldsymbol{\theta}^T\left(\frac{\mathbf{I}_n}{\sigma^2}+\frac{\mathbf{W}^*}{\tau^2}\right)\boldsymbol{\theta}-2\boldsymbol{\theta}^T \left(\frac{ \boldsymbol{\gamma}}{\sigma^2}\right) \right] \right\}\\
+&\sim N(\mathbb{E}_{\theta},\mathbb{V}_{\theta}).
+\end{align*}
+where, $\mathbb{V}_{\theta}=\left(\frac{\mathbf{I}_n}{\sigma^2}+\frac{\mathbf{W}^*}{\tau^2}\right)^{-1}$ and $\mathbb{E}_{\theta}=\mathbb{V}_{\theta}\left(\frac{ \boldsymbol{\gamma}}{\sigma^2}\right)$.\\
+
+\subsubsection*{Derivation for $\boldsymbol{\beta}$}
+
+First, define $\boldsymbol{\gamma}=\mathbf{Y}-\boldsymbol{\theta}$. Then, we can derive the full conditional as follows,
+\begin{align*}
+f\left(\boldsymbol{\beta}|\mathbf{Y},\boldsymbol{\theta},\sigma^2,\tau^2\right) &\propto f\left(\mathbf{Y}|\boldsymbol{\theta},\boldsymbol{\beta},\sigma^2\right) \times f(\boldsymbol{\beta})\\
+&\propto \exp\left\{-\frac{1}{2}\left[\frac{\left(\boldsymbol{\gamma}-\mathbf{X}\boldsymbol{\beta}\right)^T\mathbf{I}_n\left(\boldsymbol{\gamma}-\mathbf{X}\boldsymbol{\beta}\right)}{\sigma^2}+\frac{\boldsymbol{\beta}^T \mathbf{I}_p\boldsymbol{\beta}}{\sigma_{\beta}^2} \right] \right\}\\
+&\propto \exp\left\{-\frac{1}{2}\left[\boldsymbol{\beta}^T\left(\frac{\mathbf{X}^T\mathbf{X}}{\sigma^2}+\frac{\mathbf{I}_p}{\sigma_{\beta}^2}\right)\boldsymbol{\beta}-2\boldsymbol{\beta}^T \left(\frac{\mathbf{X}^T\boldsymbol{\gamma}}{\sigma^2}\right) \right] \right\}\\
+&\sim N(\mathbb{E}_{\beta},\mathbb{V}_{\beta}).
+\end{align*}
+where, $\mathbb{V}_{\beta}=\left(\frac{\mathbf{X}^T\mathbf{X}}{\sigma^2}+\frac{\mathbf{I}_p}{\sigma_{\beta}^2}\right)^{-1}$ and $\mathbb{E}_{\beta}=\mathbb{V}_{\beta}\left(\frac{\mathbf{X}^T\boldsymbol{\gamma}}{\sigma^2}\right)$.\\
+
+\subsubsection*{Derivation for $\sigma^2$}
+
+First, define $\boldsymbol{\gamma}=\mathbf{X}\boldsymbol{\beta}+\boldsymbol{\theta}$. Then, we can derive the full conditional as follows,
+
+\begin{align*}
+f\left(\sigma^2|\mathbf{Y},\boldsymbol{\theta},\boldsymbol{\beta},\tau^2\right) &\propto f\left(\mathbf{Y}|\boldsymbol{\theta},\boldsymbol{\beta},\sigma^2\right) \times f\left(\sigma^2\right)\\
+&\propto \left(\sigma^2\right)^{-\frac{n}{2}}\exp\left\{-\frac{1}{2\sigma^2}\left(\mathbf{Y}-\boldsymbol{\gamma}\right)^T\left(\mathbf{Y}-\boldsymbol{\gamma}\right)\right\} \left(\sigma^2\right)^{-\alpha_{\sigma}-1} \exp\left\{-\frac{\beta_{\sigma}}{\sigma^2}\right\}\\
+&\propto \left(\sigma^2\right)^{-\left(\alpha_{\sigma}+\frac{n}{2}\right)-1}\exp\left\{-\frac{1}{\sigma^2}\left[\beta_{\sigma}+\frac{\left(\mathbf{Y}-\boldsymbol{\gamma}\right)^T\left(\mathbf{Y}-\boldsymbol{\gamma}\right)}{2}\right]\right\}\\
+&\sim IG\left(\alpha_{\sigma}+\frac{n}{2},\beta_{\sigma}+\frac{\left(\mathbf{Y}-\boldsymbol{\gamma}\right)^T\left(\mathbf{Y}-\boldsymbol{\gamma}\right)}{2}\right).
+\end{align*}
+
+\subsubsection*{Derivation for $\tau^2$}
+
+\begin{align*}
+f\left(\tau^2|\mathbf{Y},\boldsymbol{\theta},\boldsymbol{\beta},\sigma^2\right) &\propto f\left(\boldsymbol{\theta}|\tau^2\right) \times f\left(\tau^2\right)\\
+&\propto \left(\tau^2\right)^{-\frac{n-G}{2}}\exp\left\{-\frac{\boldsymbol{\theta}^T \mathbf{W}^*\boldsymbol{\theta}}{2\tau^2}\right\} \left(\tau^2\right)^{-\alpha_{\tau}-1} \exp\left\{-\frac{\beta_{\tau}}{\tau^2}\right\}\\
+&\propto \left(\tau^2\right)^{-\left(\alpha_{\tau}+\frac{n-G}{2}\right)-1}\exp\left\{-\frac{1}{\tau^2}\left[\beta_{\tau}+\frac{\boldsymbol{\theta}^T \mathbf{W}^*\boldsymbol{\theta}}{2}\right]\right\}\\
+&\sim IG\left(\alpha_{\sigma}+\frac{n-G}{2},\beta_{\sigma}+\frac{\boldsymbol{\theta}^T \mathbf{W}^*\boldsymbol{\theta}}{2}\right).
+\end{align*}
+
+\subsection*{Deviance}
+
+To calculate DIC we need to compute deviance at each scan of the MCMC sampler. At scan $s$, the deviance can be computed by evaluating, 
+$$\text{Deviance}^{(s)}=-2\log\left\{f\left(\mathbf{Y}\Big|\boldsymbol{\theta}^{(s)},\boldsymbol{\beta}^{(s)},\sigma^{2(s)}\right)\right\}.$$
+
+
+\end{document}
