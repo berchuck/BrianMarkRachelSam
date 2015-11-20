@@ -70,10 +70,10 @@ We will control for spatial dependency through specification of the distribution
 \begin{equation}\label{eq:CARjointprior}
 f\left(\boldsymbol{\theta}|\tau^2\right)\sim {CAR}(\tau^2) \propto \exp\left\{-\frac{\boldsymbol{\theta}^T\mathbf{W}^*\boldsymbol{\theta}}{2\tau^2}\right\},
 \end{equation}
-where the components of $\mathbf{W}^*$ are defined as $[\mathbf{W}^*]_{ij}=-w_{ij}$ for $i \neq j$ and $[\mathbf{W}^*]_{ii}=\sum_{j=1}^n w_{ij}$, with $w_{ij}$ being the components of the neighborhood adjacency matrix $\mathbf{W}$ (i.e. $w_{ij}=1(i\sim j)$, where $i\sim j$ indicates locations $i$ and $j$ are adjacent). The CAR prior is best interpreted in its conditional formulation, however for computational purposes we will work with the joint specification. For insight, the conditional specification can be written as follows,
+where the components of $\mathbf{W}^*$ are defined as $[\mathbf{W}^*]_{ij}=-w_{ij}$ for $i \neq j$ and $[\mathbf{W}^*]_{ii}=\sum_{j=1}^n w_{ij}$, with $w_{ij}$ being the components of the neighborhood adjacency matrix $\mathbf{W}$ (i.e. $w_{ij}=1(i\sim j)$, where $i\sim j$ indicates locations $i$ and $j$ are adjacent). The CAR prior is best interpreted in its conditional formulation, however for computational purposes we will work with the joint specification. For insight, the conditional specification can be written as follows, \marginpar{ I think $\color{red}{\theta_i}$ should be $\theta_{\delta_i}$ -BB}
 \[
 \theta_i | \theta_{\delta_i},\tau^2 \sim \text{N}\left(\frac{\sum_{j=1}^n w_{ij} \color{red}{\theta_i}}{\sum_{j=1}^n w_{ij}},\frac{\tau^2}{\sum_{j=1}^n w_{ij}}\right),
-\]\marginpar{ I think $\color{red}{\theta_i}$ should be $\theta_{\delta_i}$ -BB}
+\]
 where $\delta_i$ is the set of all neighbors of location $i$. This conditional specification demonstrates that each location specific intercept, $\theta_i$, is a weighted average of its neighbors, with variance shrinking as the number of neighbors increases.
 
 Before proceeding, we will rewrite the model in matrix formulation,
