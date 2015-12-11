@@ -1,0 +1,617 @@
+Table 8: Stores Ranked by Total Dollar Sales, RY 2013–14
+Rank 	Store 	City 	Address 	TransactionCount Avg.ValueofTransaction DollarSales
+1	5103* Philadelphia 2238 Washington Ave 19,330 $2,274.14 $43,959,058.45
+2	1516 West Chester 933 Paoli Pike 295,885 $81.34 $24,066,478.64
+3	247 Pittsburgh 5956 Penn Cir S, Ste 201 373,380 $51.24 $19,131,996.57
+4	215* Pittsburgh 1601 Liberty Ave 17,897 $1,034.54 $18,515,227.89
+5	5144 Philadelphia 1218 Chestnut St 376,112 $38.11 $14,332,674.51
+6	214 Pittsburgh The Waterworks 974 Freeport Rd 270,550 $51.60 $13,960,132.44
+7	4602 Ardmore Ardmore Plz Shopping Ctr 56 Greenfield Ave 241,418 $56.56 $13,655,306.94
+8	2301* Broomall Lawrence Park Ind Ctr 629 Park Way 7,991 $1,700.99 $13,592,600.73
+9	9211 Bethel Park Village Sq Mall 5000 Oxford Dr, Ste 100 282,133 $48.13 $13,579,565.16
+10	5133 Philadelphia 401 Franklin Mills Cir 277,009 $48.16 $13,341,940.94
+11	621 Wyomissing Berkshire Mall West 1101 Woodland Rd 298,032 $44.18 $13,165,927.80
+12	4623 Flourtown 1440 Bethlehem Pike 256,612 $48.18 $12,362,637.09
+13	2102 Lemoyne West Shore Plz Shopping Ctr 1200 Market St 278,509 $43.82 $12,204,191.13
+14	926 Doylestown 132 Veterans Ln 274,616 $43.94 $12,066,874.92
+15	1007 Cranberry Twp Cranberry Mall, Rm 302A 20111 Rt 19 237,892 $50.25 $11,954,295.56
+16	1405 State College 1690 N Atherton St 282,108 $41.59 $11,732,962.58
+17	4628 Conshohocken Whitemarsh Shopping Ctr 44 Ridge Pike 290,010 $38.95 $11,296,116.94
+18	5185 Philadelphia 180 W Girard Ave 317,568 $35.20 $11,176,922.43
+19	4620 King Of Prussia 143 S Gulph Rd 168,634 $66.27 $11,175,794.64
+20	909 Newtown 10 W Centre Ave 245,761 $44.98 $11,054,184.26
+21	6316 Washington Washington Mall 301 Oak Spring Rd 207,849 $52.30 $10,871,325.73
+22	231 Pittsburgh Robinson Town Centre 1850 Park Manor Blvd 243,164 $44.04 $10,709,812.16
+23	4814 Easton Northampton Crossings 3718 Easton-Nazareth Hwy 275,021 $38.91 $10,700,439.51
+24	2210 Harrisburg Kmart Shopping Ctr 5070 Jonestown Rd 277,487 $38.33 $10,637,258.76
+25	5104 Philadelphia Columbus Commons North Shopping Ctr 1940 S Christopher Columbus Blvd 257,268 $41.13 $10,580,293.38
+26	3901 Allentown Crest Plz Shopping Ctr 1516 N Cedar Crest Blvd 238,302 $43.10 $10,271,448.14
+27	3516 Clarks Summit 222 Northern Blvd, Ste C 215,284 $47.19 $10,158,397.96
+28	4631 Norristown Swede Sq Shopping Ctr 2927 Swede Rd 261,233 $38.78 $10,131,270.99
+29	3614 Lancaster Hawthorne Centre Shopping Ctr 2076 Fruitville Pike 276,819 $36.59 $10,129,395.97
+30	9101 Philadelphia 2040 Market St 284,103 $35.32 $10,035,023.24
+31	940* Feasterville 855B Pennsylvania Blvd 6,429 $1,503.71 $9,667,380.30
+32	4633 Lansdale Allen Forge Shopping Ctr 850 S Valley Forge Rd 276,847 $34.74 $9,618,541.63
+33	4613 Jenkintown 935 Old York Rd 243,709 $39.16 $9,543,142.51
+34	227 Monroeville 3845 Northern Pike 232,017 $40.86 $9,480,898.78
+35	6707 York Eastern Boulevard Shopping Ctr 2414 Eastern Blvd 265,543 $35.24 $9,357,971.79
+36	2211 Hummelstown Hershey Sq Shopping Ctr 1158 Mae St 165,986 $56.13 $9,317,011.09
+37	4817* Bethlehem 3084 Emrick Blvd (Rear) 8,151 $1,079.62 $8,799,989.69
+38	260 Pittsburgh 1955 Wharton St 276,994 $31.60 $8,751,853.84
+39	3913 Whitehall 2503 Mickley Ave 265,673 $32.71 $8,689,149.76
+40	4606 Maple Glen Maple Glen Shopping Ctr 1973 Norristown Rd 190,227 $45.49 $8,653,770.20
+41	1404 State College Hamilton Sq Shopping Ctr 230 W Hamilton Ave 159,804 $54.02 $8,633,243.61
+42	920 Quakertown Quakertown Shopping Ctr 1465 W Broad St, Ste 19 273,972 $31.46 $8,618,221.06
+43	9208 Wexford 125 Towne Centre Dr, Ste 500 173,742 $49.50 $8,600,397.55
+44	3918 Center Valley The Promenade Shops At Saucon Valley 3060 Ctr Valley Pkwy, Ste 835 156,770 $54.29 $8,511,622.14
+45	2310 Springfield 149 Baltimore Pike 304,516 $27.39 $8,340,240.74
+46	1501 Exton 275 Main St 185,559 $44.19 $8,200,129.27
+47	3616* Lancaster 1190 Dillerville Rd 7,301 $1,111.38 $8,114,176.45
+48	2514 Erie Yorktown Centre 2501 W 12th St 186,630 $43.31 $8,083,410.63
+49	277 Pittsburgh 8090 Mcintyre Sq Dr 218,284 $36.36 $7,935,768.53
+50	4610 Collegeville Market Place Shopping Ctr 201 2nd Ave, Ste 107 198,742 $39.87 $7,923,492.08
+51	932 Warrington 1115 Main St 203,109 $38.51 $7,822,026.05
+52	222* Bridgeville United Industr Park, Bldg D 98 Vanadium Rd 5,765 $1,337.25 $7,709,259.70
+53	6315 Mcmurray Donaldsons Crossroads S C 3929 Washington Rd 196,439 $38.91 $7,644,351.20
+54	4614 Bala Cynwyd 119 West City Ave 230,981 $32.41 $7,487,030.34
+55	2305 Media 315 W Baltimore Ave 218,566 $34.16 $7,467,028.13
+56	912 New Hope Logan Sq Shopping Ctr 6542-J Lower York Rd 128,235 $57.71 $7,399,806.45
+57	1506 Downingtown Ashbridge Shopping Ctr 861 E Lancaster Ave 211,182 $34.58 $7,301,986.24
+58	6517 Greensburg Westmoreland Crossing 5280 Rte 30, Ste 4 171,906 $42.17 $7,250,121.03
+59	4645 Limerick Limerick Village 200 West Ridge Pike 187,552 $38.49 $7,219,653.59
+60	284 Pittsburgh Bill Green Shopping Ctr 10 Old Clairton Rd 207,923 $34.60 $7,194,206.36
+61	9205 Pittsburgh 1602 Cochran Rd 200,823 $34.79 $6,986,487.63
+62	604 Reading 4721 Perkiomen Ave. 214,692 $32.54 $6,985,031.06
+63	1527 Wayne 821 W Lancaster Ave, Ste 310 133,264 $52.06 $6,937,349.60
+64	6711 Hanover Hanover Crossing Shopping Ctr 431 Eisenhower Dr 194,865 $35.08 $6,835,507.33
+65	911 Fairless Hills 510 S Oxford Valley Rd, Bldg 8 257,454 $26.46 $6,812,434.83
+66	5191 Philadelphia 2401 Vare Ave 282,644 $24.03 $6,792,908.11
+67	2516 Erie Liberty Plaza Shopping Ctr 3702 Liberty St 231,139 $29.26 $6,762,797.48
+68	1528 Paoli Paoli Shopping Ctr 17-19 Leopard Rd, Ste D-1, D-2 & D-3 160,630 $42.09 $6,761,464.00
+69	6712 York Commerce Ctr 2148 White St, Ste 3 232,602 $28.92 $6,726,856.06
+70	1514 Wayne 161 E Swedesford Rd 184,219 $35.96 $6,623,986.56
+71	3801 Lebanon 102 N 8th Ave 214,206 $30.33 $6,496,223.79
+72	2101 Carlisle Carlisle Marketplace 281 S Spring Garden St 222,898 $29.14 $6,496,051.02
+73	2801 Chambersburg Wayne Plz 987 Wayne Ave 185,277 $34.44 $6,381,021.40
+74	3615 Lancaster Bridgeport Shopping Ctr 1622 Lincoln Hwy East 228,735 $27.64 $6,323,179.06
+75	4306 Hermitage Hermitage Towne Plz 2321 E State St 169,083 $36.99 $6,254,647.70
+76	1530 West Chester Bradford Plz Sc 692 Downingtown Pike 201,588 $30.91 $6,231,073.44
+77	4003 Dallas 2161 Memorial Hwy, Ste 101 162,925 $38.23 $6,228,503.46
+78	4502 Mt Pocono Pocono Village Mall 3430 Rte 940, Ste 101 218,287 $28.49 $6,219,381.49
+79	5140 Philadelphia 2401 E Venango St 254,840 $24.18 $6,162,744.56
+80	4632 North Wales Gwynedd Crossing Sc 1200 Bethlehem Pike, Ste 7 163,560 $37.59 $6,148,450.26
+81	9118 Philadephia Ivy Ridge Shopping Ctr 7146 Ridge Ave 221,761 $27.62 $6,125,784.05
+82	6714 Shrewsbury Shrewsbury Commons Shopping Ctr 802 Shrewsbury Commons Ave 145,585 $42.02 $6,118,074.24
+83	1525 Exton Lionville Shopping Ctr 162 Eagleview Blvd 181,355 $33.71 $6,114,178.13
+84	619 Reading Penn Plz 3045 Fifth St Hwy, Unit #3 211,639 $28.81 $6,098,337.15
+85	4804 Bethlehem Stefko Shopping Ctr 1844-A Stefko Blvd 221,056 $27.43 $6,064,079.49
+86	709 Altoona Pleasant Valley Shopping Ctr 3415 Pleasant Valley Blvd, Ste #82 179,618 $33.69 $6,051,000.16
+87	4636 Narberth 1 Station Cir 148,932 $40.37 $6,012,158.05
+88	910 Souderton Hilltown Plz Sc 766 Rt 113, Str 4 197,845 $30.38 $6,009,570.67
+89	2306 Wayne 209 W Lancaster Ave 136,770 $43.64 $5,968,317.45
+90	101 Gettysburg 1275 York Rd, Lot 12 150,833 $39.38 $5,939,974.39
+91	5135 Philadelphia 5101 Lancaster Ave 297,231 $19.85 $5,899,449.37
+92	2324 Holmes Macdade Shopping Ctr 2143 Macdade Blvd 221,618 $26.49 $5,870,820.07
+93	3607 Lititz Shoppes At Kissel Village 1020 Lititz Pike 185,302 $31.39 $5,816,186.25
+94	5160 Philadelphia Hendrix Ctr 11685 Bustleton Ave 238,453 $24.29 $5,791,832.28
+95	1010 Seven Fields 206 Seven Fields Blvd 157,407 $36.47 $5,741,361.24
+96	5112 Philadelphia 2550 Grant Ave, Ste 130 190,504 $29.96 $5,706,857.44
+97	211 Gibsonia 354 Northtowne Sq 5600 Rte 8 166,348 $34.26 $5,698,461.25
+98	1502 Phoenixville 550 Kimberton Rd 171,661 $33.02 $5,668,165.94
+99	2215 Harrisburg The Pt Shopping Ctr 4227 Union Deposit Rd 215,967 $26.07 $5,629,839.64
+10	 4110 Williamsport Loyal Pz Shopping Ctr 1903 E 3rd St 153,657 $36.55 $5,616,493.23
+10	 2320 Havertown 1305 West Chester Pike, Ste 44B 198,720 $28.26 $5,616,410.18
+10	 5132 Philadelphia 4229 N Broad St 295,183 $18.94 $5,591,080.21
+10	 5190 Philadelphia 7161 Ogontz Ave 266,369 $20.89 $5,563,999.41
+10	 3915 Bethlehem Westgate Mall 2289 Schoenersville Rd 186,942 $29.69 $5,550,818.27
+10	 4001 Wilkes-Barre 2136 Wilkes-Barre Twp 182,667 $30.20 $5,517,436.82
+10	 2106 Mechanicsburg 6560 Carlisle Pike, Ste 350 169,414 $32.53 $5,511,033.75
+10	 266 Sewickley 521 Beaver St 101,127 $54.21 $5,482,318.26
+10	 3522 Scranton 210 Meadow Ave 178,191 $30.65 $5,460,981.05
+10	 1507 Kennett Square New Garden Town Sq Sc 350 Scarlett Rd, Ste 1-3-5 127,257 $42.80 $5,446,179.58
+11	 6518 North Huntingdon Norwin Hills Plz 8865 Norwin Ave 179,951 $30.22 $5,437,940.61
+11	 207 Pittsburgh One Oxford Centre 320 Smithfield St 138,398 $39.26 $5,433,744.07
+11	 4635 Willow Grove Regency Square Shopping Plz 1029 N Easton Rd 172,636 $31.15 $5,378,129.22
+11	 1902 Bloomsburg 1231 Columbia Blvd 162,820 $32.93 $5,361,763.59
+11	 929 Chalfont 4275 County Line Rd 162,056 $33.01 $5,349,114.36
+11	 5173 Philadelphia Woodland Village Shopping Ctr 6036 Woodland Ave 286,601 $18.61 $5,334,849.71
+11	 915 Bristol 3920 New Falls Rd 212,751 $24.96 $5,310,419.49
+11	 6705 York Queensgate Shopping Ctr 2075 Springwood Rd, Unit #30 170,623 $30.63 $5,227,011.62
+11	 1523 West Chester Shoppes Dilworthtown, Ste B 1363 Dilworthtown Crossing 120,602 $43.01 $5,186,972.95
+11	 3206 Indiana Town Fair Plz 475 Ben Franklin S, Ste 5 160,636 $32.08 $5,153,368.76
+12	 4501 East Stroudsburg Pocono Plz 414 Lincoln Ave 199,761 $25.75 $5,143,892.44
+12	 3916 Trexlertown Trexler Mall Unit 2-A 6900 Hamilton Blvd P.O. Box 93 175,483 $29.27 $5,135,745.31
+12	 5141 Philadelphia 4906-4908 Baltimore Ave 260,915 $19.55 $5,101,913.47
+12	 4621 Blue Bell Ctr Sq Plz, Ste 100 1301 Skippack Pike 120,789 $42.13 $5,088,305.98
+12	 4608 Bryn Mawr 922 W Lancaster Ave 119,450 $42.40 $5,064,661.56
+12	 5169 Philadelphia 1935 Fairmount Ave 186,766 $26.55 $4,957,940.22
+12	 2501 Erie Summit Towne Centre 7200 Peach St 120,772 $40.76 $4,922,617.67
+12	 5201 Milford 106 W Harford St 148,830 $32.79 $4,880,651.26
+12	 6401 Hawley 74 Welwood Ave, Ste 103 110,362 $43.99 $4,855,216.09
+12	 5155 Philadelphia Society Hill Shopping Ctr 326 S 5th St 144,720 $33.54 $4,853,743.27
+13	 3606 Lancaster Centerville Sq 586 Centerville Rd 175,492 $27.31 $4,792,941.45
+13	 4622 Rockledge 404 Huntingdon Pike 157,160 $30.32 $4,765,000.56
+13	 2207* Harrisburg 1303 N 7th St 3,881 $1,221.93 $4,742,327.87
+13	 5157 Philadelphia 1237 S 11th St 175,718 $26.94 $4,734,082.23
+13	 928 Langhorne Shoppes At Flowers Mill 118 N Flowers Mill Rd 143,441 $32.95 $4,726,084.70
+13	 5122 Philadelphia 8 Penn Center Plz 1628 John F Kennedy Blvd 245,564 $19.15 $4,703,219.76
+13	 226 Pittsburgh 132 Ben Avon Heights Rd 161,823 $29.00 $4,692,089.32
+13	 2319 Glen Mills Concordville Towne Ctr 301 Byers Dr, Space K-013 124,218 $37.06 $4,604,021.03
+13	 4626 Norristown 2501 West Ridge Pike 169,994 $27.06 $4,600,229.65
+13	 925 Richboro Crossroads Shopping Ctr 800 Bustleton Ave 146,233 $31.19 $4,561,590.72
+14	 299 Pittsburgh Penn Hills Shopping Ctr 11685 Penn Hills Dr 193,424 $23.47 $4,539,393.28
+14	 6709 York The Crossroads Shopping Ctr 351 Loucks Rd 164,137 $27.40 $4,498,111.98
+14	 4015* Wilkes-Barre 112 Stevens Rd 3,701 $1,188.58 $4,398,931.32
+14	 267 Coraopolis Moon Plz, Ste 24 5990 University Blvd 140,508 $31.29 $4,396,286.18
+14	 4639 Gilbertsville Gilbertsville Shopping Ctr 1050 E Philadelphia Ave 136,227 $32.25 $4,393,490.51
+14	 238 Pittsburgh Shady Hill Ctr 6320 Shakespeare St 240,409 $18.23 $4,382,025.88
+14	 228 Pittsburgh Edgewood Towne Centre 1749 S Braddock Ave 176,810 $24.73 $4,373,151.33
+14	 4617 Harleysville 2710 Shelly Rd 130,264 $33.31 $4,339,615.49
+14	 3903 Allentown 1918 Allen St 164,030 $26.40 $4,330,177.72
+14	 5150 Philadelphia 4301 Chestnut St 161,923 $26.70 $4,323,422.89
+15	 4607 Ambler 132 E Butler Ave 106,045 $40.73 $4,319,576.21
+15	 2105 Mechanicsburg Mechanicsburg Plz 5301 Simpson Ferry Rd 157,269 $27.31 $4,295,764.89
+15	 2332 Broomall Lawrence Park Shopping Ctr 1991 Sproul Rd, Space 37 155,174 $27.44 $4,257,435.25
+15	 5142 Philadelphia Plaza Americana 2717 N American St 190,101 $22.15 $4,209,984.55
+15	 298 Bridgeville Chartiers Valley Shopping Ctr 1025 Washington Pike 133,172 $31.60 $4,208,707.49
+15	 5134 Philadelphia 32 S Second St 92,911 $45.29 $4,207,664.57
+15	 3909 Allentown 906 Club Ave 123,980 $33.82 $4,193,390.82
+15	 914 Feasterville Southampton Village Sc 162 E Street Rd 130,868 $32.01 $4,189,475.34
+15	 5111 Philadelphia 3720 Main St 141,461 $29.61 $4,189,052.80
+15	 3617 Lancaster Wheatland Shopping Ctr 1761A Columbia Ave 144,946 $28.88 $4,186,609.62
+16	 938 Warminster Center Point Plz Sc 748 West St Rd 148,447 $27.87 $4,137,045.38
+16	 615 Douglassville Douglassville Shopping Ctr 180 Old Swede Rd, Ste #6 137,335 $29.71 $4,079,995.54
+16	 2314 Newtown Square Newtown Sq Shopping Ctr 42 Alpha Dr 128,659 $31.64 $4,070,405.35
+16	 6519 Lower Burrell Crossroads Plz 2501 Leechburg Rd, Ste F 130,937 $31.06 $4,066,730.54
+16	 2331 Drexel Hill 5035 Township Line Rd 140,845 $28.77 $4,052,640.46
+16	 4637 Audubon Audubon Village Shopping Ctr 2860 Audubon Vill Dr 123,889 $32.47 $4,022,850.64
+16	 4611 Royersford Park Towne Plz 301 N Lewis Rd, Ste #170 151,616 $26.49 $4,015,824.22
+16	 2107 Camp Hill 3760 Market St 123,039 $32.63 $4,015,263.65
+16	 4509 Tannersville R.R.#1 Tannersville Plz 2838 Rt 611, Ste 107 148,520 $26.92 $3,998,257.21
+16	 6521 Murrysville 4610 William Penn Hwy 111,018 $35.94 $3,990,180.82
+17	 286 Pittsburgh 1130 Perry Hwy #20 Pines Plz 88,026 $44.90 $3,952,255.49
+17	 6523 Latrobe 1038 Latrobe 30 Plz, Ste 311 120,036 $32.84 $3,942,282.46
+17	 4638 Glenside 123 S Easton Rd 142,651 $27.63 $3,940,740.74
+17	 2001 Meadville Downtown Mall 900 Water St 127,832 $30.80 $3,937,112.26
+17	 4627 Lansdale Hillcrest Shopping Ctr 644 E Main St 148,284 $26.47 $3,925,215.91
+17	 5165 Philadelphia 2118 Cottman Ave 182,068 $21.53 $3,920,342.33
+17	 3508 Dunmore 70 Keystone Industrial Pk 136,934 $28.60 $3,916,407.60
+17	 919 Bensalem 2223 Galloway Rd 135,683 $28.66 $3,889,205.46
+17	 249 Pittsburgh 519 Towne Sq Way 149,767 $25.85 $3,871,997.95
+17	 290 Pittsburgh Noble Manor Shopping Ctr 2350 Noblestown Rd 142,075 $27.16 $3,859,365.84
+18	 1003 Butler 608 Moraine Pointe Plz 124,352 $30.94 $3,846,837.18
+18	 4630 Pottstown North End Shopping Ctr 1300 N Charlotte St 146,522 $26.20 $3,839,169.23
+18	 906 Morrisville Pennsbury Plz Sc 229 Plz Blvd #3133 157,642 $24.19 $3,813,705.15
+18	 5119 Philadelphia 724 South St 130,340 $28.88 $3,763,703.55
+18	 1702 Dubois 5730 Shaffer Rd 119,727 $31.14 $3,727,983.31
+18	 4033 Hazle Township Church Hill Mall 1089 N. Church St. 119,815 $30.62 $3,669,321.95
+18	 4510 East Stroudsburg 232 Fox Run Ln, Ste 101 142,643 $25.69 $3,664,006.81
+18	 2329 Eddystone Eddystone Shopping Ctr 1562 Chester Pike, Unit D-6 159,040 $23.02 $3,660,680.80
+18	 4506 Stroudsburg 1060 N 9th St 139,316 $26.25 $3,657,377.31
+18	 6001 Lewisburg 334 Market St 103,267 $35.30 $3,645,080.86
+19	 3904 Allentown 3300 Lehigh St 114,026 $31.72 $3,617,062.71
+19	 292 Pittsburgh N Hills Village, Rm 9 4801 Mcknight Rd 113,872 $31.73 $3,612,995.68
+19	 2610 Uniontown Fayette Plz Shopping Ctr 619 Pittsburgh Rd 88,115 $40.80 $3,594,980.90
+19	 6404 Honesdale 1199 Texas-Palmyra Hwy, Ste 0 110,282 $32.56 $3,590,277.20
+19	 605 Kutztown Village Sq Plz 45 Constitution Blvd 110,551 $32.39 $3,581,281.43
+19	 274 Pittsburgh Lebanon Shops 300 Mount Lebanon Blvd 125,987 $28.12 $3,542,886.51
+19	 2327 Villanova 789 E Lancaster Ave 61,103 $57.78 $3,530,530.59
+19	 5143 Philadelphia 2429 S St 117,877 $29.74 $3,505,153.14
+19	 409 Beaver Falls Chippewa Mall, Rm 5 & 6 2546 Constitution Blvd 109,818 $31.77 $3,488,646.58
+19	 1510 Coatesville Barley Station Sc 2715 E Lincoln Hwy 140,771 $24.66 $3,471,025.56
+20	 3919 Allentown Allentown Towne Ctr 4777 Tilghman St 111,938 $30.98 $3,467,744.51
+20	 224 Pittsburgh 1824 Murray Ave 128,957 $26.79 $3,455,367.01
+20	 414 Monaca 1476 Brodhead Rd 108,968 $31.71 $3,454,977.74
+20	 1508 Parkesburg West Sadsbury Commons Sc 324 Commons Dr, Ste C-6 125,330 $27.55 $3,453,007.88
+20	 5105 Philadelphia 5 North 12th St 181,048 $19.03 $3,445,520.62
+20	 4507 Blakeslee 248 Rt 940, Ste #109 P.O. Box 640 100,968 $33.98 $3,430,880.37
+20	 4505 Brodheadsville Kinsley Plz 107 Kinsley Plz, Ste 104 133,751 $25.44 $3,402,002.09
+20	 9114 Philadelphia Adams And Tabor Ctr 730 Adams Ave 114,376 $29.74 $3,401,013.95
+20	 296 Bethel Park 5249 Library Rd 123,761 $27.41 $3,391,895.93
+20	 9111 Philadelphia Roosevelt Plz 6577 Roosevelt Blvd 149,905 $22.57 $3,382,841.52
+21	 2214 Harrisburg Vlge Of Oakhurst Shopping Ctr 4404 Oakhurst Blvd 118,700 $28.44 $3,376,025.96
+21	 907 Yardley Edgewood Village Shopping Ctr 635 Heacock Rd 118,690 $28.43 $3,374,065.66
+21	 5101 Philadelphia 135 W Chelten Ave 210,885 $15.97 $3,367,655.44
+21	 2110 Carlisle Stonehedge Sq Shopping Ctr 950 Walnut Bottom Rd 104,501 $32.19 $3,364,329.88
+21	 6524 Belle Vernon 321 Tri-County Lane 123,284 $27.27 $3,361,836.78
+21	 6710 Red Lion Windsor Commons Shopping Ctr 3159 Cape Horn Rd 135,707 $24.57 $3,334,486.66
+21	 2509 Erie Giant Eagle Plz 4466 Buffalo Rd 120,072 $27.62 $3,316,900.46
+21	 2302 Upper Darby 128 S 69th St 182,896 $18.09 $3,308,249.88
+21	 2103 Shippensburg Shippen Towne Centre 109 S Conestoga Drive 121,825 $27.00 $3,288,854.27
+21	 2502 Erie 105 W 18th St 116,222 $28.20 $3,277,184.10
+22	 3908 Macungie 199 W Main St 99,769 $32.74 $3,266,413.83
+22	 1402 State College Hills Plz 2051 S Atherton St 91,342 $35.35 $3,228,837.95
+22	 5121 Philadelphia Top Of The Hill Shopping Ctr 8705 Germantown Ave 87,980 $36.69 $3,227,557.16
+22	 2333 Upper Darby Barclay Sq Shopping Ctr 1500 Garrett Rd 134,316 $24.02 $3,226,855.76
+22	 3611 Elizabethtown 1575 S Market St, Ste 109 114,126 $28.20 $3,218,024.48
+22	 213 Pittsburgh 217 Atwood St 148,441 $21.58 $3,203,775.75
+22	 6201 Warren 44 Market St Plz 104,042 $30.79 $3,203,395.63
+22	 4401 Lewistown 129 S Main St, Ste 400 115,147 $27.69 $3,188,440.16
+22	 1522 Pottstown Suburbia Sc 76 Glocker Way 98,891 $32.10 $3,173,948.16
+22	 5153 Philadelphia 2115 N 22nd St 158,446 $20.00 $3,168,396.86
+23	 4807 Hellertown Creekside Market Place 1848 Leithsville Rd 106,697 $29.67 $3,166,151.42
+23	 5602 Somerset Somerset Commons, Ste 110 1534 N Ctr Ave 89,850 $35.16 $3,159,467.66
+23	 3914 Allentown 1620 S 4th St 137,415 $22.91 $3,147,730.99
+23	 4701 Danville 604 Continental Blvd 102,075 $30.80 $3,144,217.93
+23	 5116 Philadelphia 101 E Olney Ave 159,812 $19.56 $3,125,474.49
+23	 4508* Marshalls Creek Jay Park Plz 288 Dartmouth Dr 2,179 $1,433.00 $3,122,496.93
+23	 703 Duncansville 202 Hollidaysburg Plz 96,147 $32.33 $3,108,497.92
+23	 272 Pittsburgh 233 Shiloh St 96,902 $31.90 $3,091,627.88
+23	 937 Yardley Oxford Oaks Shopping Ctr 1601 Big Oak Rd 93,223 $33.08 $3,083,970.12
+23	 1406 State College Benner Pike Shops 323 Benner Pike 98,289 $31.36 $3,082,313.59
+24	 5114 Philadelphia 8844 Frankford Ave 142,522 $21.52 $3,066,508.76
+24	 201 Bridgeville 3239 Washington Pike 110,299 $27.75 $3,061,327.46
+24	 607 Hamburg 1772 Tilden Ridge Dr 86,726 $35.13 $3,047,044.99
+24	 620 Shillington 2207 Lancaster Pike 93,460 $32.59 $3,046,029.23
+24	 410 Aliquippa Aliquippa Shopping Ctr 2719 Brodhead Rd, Ste 13 108,332 $28.04 $3,038,155.27
+24	 5138 Philadelphia 7204 Germantown Ave 130,905 $23.07 $3,020,377.63
+24	 602 Reading Rockland Plz 1202 Rockland St 118,374 $25.39 $3,006,077.06
+24	 2503 Erie Asbury Sq 2421 Asbury Rd 106,608 $28.19 $3,005,215.22
+24	 501 Bedford 409 E Pitt St 81,621 $36.74 $2,998,579.82
+24	 6403 Hamlin Hamlin Shopping Ctr, Rt 590 96,085 $31.12 $2,989,988.82
+25	 4629 Dresher 1825 Limekiln Pike, Ste 1 111,327 $26.79 $2,982,239.26
+25	 3920 Emmaus East Penn Plz 1325 Chestnut St 96,419 $30.91 $2,980,391.98
+25	 4640 Wyncote 8156 Ogontz Ave 152,062 $19.53 $2,969,375.14
+25	 901 Hatfield Hilltown Crossings Shopping Ctr 1547 Bethlehem Pike 104,321 $28.34 $2,956,564.66
+25	 3608 Lancaster Manor Shopping Ctr 1234 Millersville Pike 121,887 $24.24 $2,954,164.63
+25	 5195 Philadelphia 7702 City Ave 127,509 $23.08 $2,943,440.65
+25	 1801 Lock Haven 137 E Main St 84,434 $34.78 $2,936,432.09
+25	 1512 Malvern Lincoln Court Shopping Ctr 215 Lancaster Ave 98,180 $29.83 $2,928,741.66
+25	 4102 Williamsport Hepburn Ctr 449 Hepburn St 90,292 $32.37 $2,922,373.94
+25	 263 Pittsburgh 418 E Ohio St 151,933 $19.18 $2,914,494.59
+26	 4605 Cheltenham Melrose Shopping Ctr 103 W Cheltenham Ave 121,519 $23.97 $2,913,273.30
+26	 4024 Pittston 140 Laurel Plz 101,202 $28.71 $2,905,027.36
+26	 4615 East Greenville 26 E Fourth St 95,599 $30.33 $2,899,245.62
+26	 4006 Luzerne Luzerne Shopping Ctr 468 Union St 106,895 $27.11 $2,897,715.51
+26	 3907 Allentown The Shops At Cedar Pt 333 S Cedar Crest Blvd 90,179 $32.00 $2,885,900.35
+26	 4815 Easton Forks Town Ctr 341 Town Ctr Blvd 112,019 $25.73 $2,882,179.04
+26	 917 Southampton 500 S Second St Pike 90,105 $31.73 $2,859,058.99
+26	 2312 Lansdowne 920 Baltimore Ave 136,812 $20.82 $2,848,507.22
+26	 2109 Camp Hill Harrisburg West Sc 3441 Simpson Ferry Rd 97,789 $29.09 $2,844,265.70
+26	 927 Pipersville Plumstead Sq Shopping Ctr 5837 Easton Rd 95,291 $29.79 $2,839,134.60
+27	 5158 Philadelphia Mckeown Shopping Ctr 6824 Rising Sun Ave 135,514 $20.91 $2,833,908.90
+27	 203 Pittsburgh Braddock Hills Shopping Ct 230 Yost Blvd 99,626 $28.38 $2,827,734.91
+27	 9108 Philadelphia Pennypack Circle Shopping Ctr 8204 E. Roosevelt Blvd. 112,323 $25.11 $2,819,947.93
+27	 3604 Ephrata 31 W Main St 104,632 $26.75 $2,799,412.09
+27	 3921 Allentown Airport Plz Shopping Ctr 1247 Airport Rd 79,194 $35.16 $2,784,293.63
+27	 5152 Philadelphia Erie Plz 3772 L St 120,457 $23.07 $2,779,166.72
+27	 4201 Bradford 38 Davis St 90,014 $30.87 $2,778,539.61
+27	 4026 Edwardsville 26 Gateway Shopping Ctr, Ste B 103,361 $26.80 $2,769,972.73
+27	 280 Pittsburgh 2800 Robinson Blvd 131,528 $21.04 $2,767,583.69
+27	 3803 Palmyra Palmyra Shopping Ctr 901 E Main St, Ste 12 100,257 $27.60 $2,767,141.08
+28	 608 Sinking Spring Springtown Shopping Ctr 2671 Shillington Rd 98,935 $27.85 $2,755,276.21
+28	 5501 Selinsgrove 517 N Market St 87,904 $31.17 $2,739,926.03
+28	 1520 Glenmoore Ludwigs Village Shopping Ctr 2910 Conestoga Rd 73,042 $37.38 $2,730,147.05
+28	 288 Pittsburgh 530-A Caste Village Sc 86,358 $31.59 $2,728,210.60
+28	 6507 Ligonier 613 W Main St 62,085 $43.74 $2,715,806.16
+28	 6525 Greensburg 6041 Rte 30, Ste 55 95,601 $28.30 $2,705,156.35
+28	 3708 New Castle 2410 Wilmington Rd 94,467 $28.61 $2,702,412.58
+28	 1118 Johnstown Geistown Shopping Ctr 2451 Bedford St 86,485 $31.22 $2,699,672.46
+28	 4813 Bethlehem 30 E 4th St 96,006 $28.11 $2,698,469.01
+28	 4805 Northampton 1910 Ctr St 99,877 $26.98 $2,695,096.43
+29	 404 East Rochester Rochester Plz 730 Ohio River Blvd 92,323 $29.18 $2,694,148.88
+29	 933 Holicong Buckingham Green 4950 Old York Rd 63,317 $42.39 $2,684,015.93
+29	 209 Pittsburgh 4104 Butler St 83,790 $31.91 $2,673,989.05
+29	 4625 King Of Prussia Valley Forge Shopping Ctr 109 Town Ctr Rd 99,707 $26.66 $2,658,163.17
+29	 4810 Bethlehem Bethlehem Sq Sc 3926 Nazareth Pike, Unit 11 98,877 $26.87 $2,656,441.49
+29	 9206 Mckees Rocks Kenmawr Plz 510 Pine Hollow Rd 96,863 $27.31 $2,645,191.69
+29	 218 Pittsburgh 2947 W Liberty Ave 90,368 $29.22 $2,640,164.41
+29	 1119 Johnstown 1735 Lyter Dr 83,751 $31.50 $2,638,443.03
+29	 1518 West Chester The Marketplace Shopping Ctr 1502 W Chester Pike 99,943 $26.38 $2,636,418.32
+29	 935 Jamison Warwick Sq Shop Ctr 2395 Old York Rd 80,922 $32.43 $2,623,980.05
+30	 1521 Downingtown Brandywine Village Shopping Ctr 1239 Horseshoe Pike, Rt 322 90,129 $29.03 $2,616,270.65
+30	 3510 Peckville Plz 1500 1531 Main St 88,772 $29.46 $2,615,288.19
+30	 5145 Philadelphia 5235 Frankford Ave 177,333 $14.69 $2,604,802.83
+30	 3610 Denver Muddy Creek Shoppes 2350 N Reading Rd, St 11 79,626 $32.30 $2,571,651.81
+30	 2206 Middletown Midtown Plz 430 E Main St 101,473 $25.30 $2,567,473.49
+30	 2217 Harrisburg Swatara Sq 6301 Grayson Rd, Ste A118 100,172 $25.60 $2,564,604.08
+30	 6302 Canonsburg 43 E Pike St 89,413 $28.67 $2,563,605.72
+30	 285 Allison Park Hampton Plz 4706 William Flynn Hwy, Ste 8 78,396 $32.70 $2,563,490.76
+30	 1515 Exton Marchwood Shopping Ctr 23 Marchwood Rd 83,923 $30.41 $2,552,342.54
+30	 3504 Childs 529 Main St 80,104 $31.81 $2,548,483.95
+31	 916 Bristol Bristol Park 238 Commerce Cir 109,793 $23.18 $2,545,295.12
+31	 2201 Harrisburg Kline Village Shopping Ctr 29 Kline Village 120,399 $21.08 $2,537,739.04
+31	 2309 Brookhaven 4117 Edgmont Ave 114,324 $22.12 $2,528,710.44
+31	 6601 Tunkhannock 2 Village Ctr 82,867 $30.51 $2,528,575.44
+31	 5189 Philadelphia 2807 S Front St 85,720 $29.40 $2,520,412.25
+31	 2511 Erie 737 E 38th St 98,398 $25.55 $2,514,303.47
+31	 6708 New Cumberland Fairview Ctr 128 Old York Rd 96,137 $26.15 $2,513,614.99
+31	 264 Pittsburgh Shaler Plz, Ste 7 880 Butler St 85,283 $29.43 $2,509,825.92
+31	 9213 Pittsburgh 2356 Golden Mile Hwy 93,004 $26.96 $2,507,404.93
+31	 1901 Berwick 35 Briar Creek Rd 83,379 $30.01 $2,502,514.74
+32	 4035 Mountaintop Weis Markets Sc 223 South Mountain Blvd, Ste 2 80,420 $31.05 $2,497,235.27
+32	 2601 Uniontown 111 W Fayette St 77,585 $32.05 $2,486,502.68
+32	 2518 Edinboro Washington Towne Ctr 140 Washington Towne Blvd 85,890 $28.89 $2,481,257.31
+32	 921 Yardley Yardley Shopping Ctr 25 S Main St 64,888 $37.99 $2,465,035.52
+32	 282 White Oak Oak Park Mall 2001 Lincoln Way 91,285 $26.80 $2,446,761.22
+32	 3602 Lancaster 252 N Queen St, 1st Fl 127,441 $19.15 $2,440,790.17
+32	 5108 Philadelphia 3250 N Broad St 138,519 $17.62 $2,440,384.89
+32	 5180 Philadelphia 3521 Cottman Ave 110,905 $21.97 $2,436,562.56
+32	 1002 Harmony 9 Northgate Plz, Unit 5 86,911 $28.03 $2,435,936.67
+32	 4903 Sunbury Sunbury Plz 1135 N. 4th St 80,144 $30.22 $2,421,987.39
+33	 6703 Hanover Grandview Plz Complex 1446 Baltimore St, Unit G 84,335 $28.69 $2,419,281.45
+33	 3603 Columbia Columbia Shopping Ctr 36 S 18th St 96,519 $25.06 $2,418,413.34
+33	 5183 Philadelphia 2913 N.22nd St 145,525 $16.56 $2,409,467.14
+33	 5401 Pottsville 530 Pottsville Park Plz, Rte 61 N 87,699 $27.36 $2,399,561.95
+33	 6702 Etters 150 Newberry Commons 85,517 $27.96 $2,391,144.20
+33	 3101 Huntingdon 7657 Lake Raystown Sc 83,155 $28.64 $2,381,237.85
+33	 4642 Huntingdon Valley Marketplace At Huntingdon 2080 County Line Rd 79,050 $30.08 $2,377,885.23
+33	 3609 Mount Joy Mount Joy Sq 921 E Main St 87,051 $27.31 $2,376,965.16
+33	 3902 Schnecksville 5041 Rt 873 86,492 $27.30 $2,361,319.36
+33	 1005 Butler 110 Bon Aire Plz 84,554 $27.78 $2,348,588.06
+34	 308 Kittanning Franklin Village Shopping Ctr 13 Franklin Village Mall 80,134 $29.17 $2,337,836.00
+34	 289 Pittsburgh Perry Shops 7920 Perry Hwy 56,424 $41.27 $2,328,848.76
+34	 234 Pittsburgh West View Sc 1012 West View Park Dr 95,042 $24.49 $2,327,754.48
+34	 2006 Meadville 19017 Park Ave Plz 70,168 $33.10 $2,322,784.25
+34	 923 Warminster 864 E St Rd 74,605 $31.04 $2,315,788.60
+34	 1526 Phoenixville 785 Starr St 90,860 $25.46 $2,312,885.95
+34	 4013 Wilkes-Barre S Main Plz 379 S Main St 109,365 $21.09 $2,306,139.12
+34	 2208 Harrisburg Uptown Plz 2943 N 7th St 112,954 $20.23 $2,285,569.38
+34	 1503 West Grove Shoppes At Jenners Village 831 W Baltimore Pike, Ste E 89,099 $25.62 $2,282,297.79
+34	 220 Oakmont 624 Allegheny River Blvd 54,746 $41.61 $2,278,176.03
+35	 230 Pittsburgh 529 Liberty Ave 131,051 $17.38 $2,277,248.86
+35	 4032 West Hazleton 12 Diana Lane 73,562 $30.90 $2,272,875.69
+35	 275 Pittsburgh 826 Hazelwood Ave 82,183 $27.64 $2,271,223.45
+35	 6512 Delmont Salem 22 Plz 6518 Rte 22, Ste 444 76,941 $29.48 $2,268,215.20
+35	 3618 Morgantown Clock Tower Plz Ii, Ste 1 2846 Main St 80,906 $27.85 $2,253,103.76
+35	 4104 Muncy 1274 E Penn St 72,923 $30.75 $2,242,464.43
+35	 4644 Horsham 900 Village Mall 102,235 $21.87 $2,236,111.26
+35	 4007 Nanticoke 13 Weis Plz 85,164 $26.25 $2,235,764.10
+35	 6501 Greensburg 105 Harrison Ave 63,992 $34.91 $2,234,219.31
+35	 294 Mckeesport Olympia Shopping Ctr 4313 Walnut St 71,730 $31.04 $2,226,810.38
+36	 3520 Scranton Green Ridge Plz 1600 Nay Aug Ave 90,263 $24.59 $2,219,428.71
+36	 1513 Berwyn 552 Lancaster Ave 66,299 $33.29 $2,207,409.78
+36	 1519 Malvern The Shops At Great Valley 20 Liberty Blvd 64,882 $33.96 $2,203,245.95
+36	 3601 New Holland New Holland Shopping Ctr 681 W Main St 77,757 $28.22 $2,194,167.96
+36	 216 Carnegie 102 E Main St 89,584 $24.42 $2,187,335.31
+36	 3502 Dickson City 1512 Scranton Carbondale H 70,411 $31.00 $2,182,668.60
+36	 3805 Cleona Cleona Sq Shopping Ctr 471 W Penn Ave 73,971 $29.50 $2,182,286.49
+36	 5120 Philadelphia Academy Plz 3246 Red Lion Rd 103,999 $20.97 $2,180,953.01
+36	 9212 Imperial Penn Lincoln Ctr 440 Penn Lincoln Dr 73,024 $29.67 $2,166,539.95
+36	 2606 Uniontown 140 Walnut Hill Rd 75,329 $28.47 $2,144,463.34
+37	 2603 Connellsville 808 Vanderbilt Rd 70,648 $30.26 $2,137,917.90
+37	 6314 Washington 980 Jefferson Ave 96,498 $22.15 $2,136,989.59
+37	 801 Sayre 2323 N Elmira St 69,535 $30.70 $2,134,848.97
+37	 2304 Newtown Square Edgemont Sq Shopping Ctr 4839 West Chester Pike 61,715 $34.52 $2,130,676.14
+37	 904 Perkasie Perkasie Sq 511 Constitution Ave 82,693 $25.63 $2,119,808.34
+37	 4308 Grove City 33 Pine Grove Sq Dr 76,974 $27.43 $2,111,449.01
+37	 4031 Hazleton Hazleton Shopping Ctr 534 W Broad St 68,770 $30.67 $2,109,010.06
+37	 931 Perkasie 341 Dublin Pike 70,972 $29.71 $2,108,315.02
+37	 295 North Versailles Great Valley Mart 355 Lincoln Hwy 99,599 $21.12 $2,103,734.77
+37	 2805 Chambersburg Lincoln Way Shopping Ctr 1670 Lincoln Way E 90,884 $23.13 $2,102,392.99
+38	 918 Trevose Trevose Shopping Plz 560 Andrews Rd 83,336 $25.22 $2,102,086.01
+38	 4801 Walnutport Walnutport Shopping Ctr 200C S Best Ave 74,437 $28.24 $2,101,861.84
+38	 705 Altoona Chestnut Plz 220 E Chestnut Ave 83,968 $24.98 $2,097,266.64
+38	 4034 Wyoming 1008 Wyoming Ave 73,675 $28.46 $2,096,753.92
+38	 3503 Scranton Price Chopper Shopping Ctr 1520 S Main Ave 86,226 $24.28 $2,093,263.86
+38	 3202 Indiana 575 Philadelphia St 68,109 $30.65 $2,087,630.61
+38	 603 Sinking Spring Sinking Spring Plz 4880 Penn Ave 69,412 $29.99 $2,081,455.70
+38	 1009 Sarver 240 Buffalo Plz 67,734 $30.55 $2,069,586.92
+38	 3518 Scranton Keyser Oak Plz, Str 11 1762 Keyser Oak Ave 79,263 $26.05 $2,064,780.43
+38	 5198 Philadelphia Freedom Sq Shopping Ctr 5113 Germantown Ave 118,505 $17.40 $2,061,718.39
+39	 930 Warrington Doylestown Pt Plz 1661 Easton Rd 66,421 $30.86 $2,049,910.94
+39	 261 Pittsburgh 2629 Brownsville Rd 79,159 $25.72 $2,036,079.01
+39	 1102 Johnstown East Hills Plz 1513 Scalp Ave 72,894 $27.75 $2,022,691.30
+39	 210 South Park The Bavarian Village 2550 Brownsville Rd 67,332 $30.03 $2,022,050.96
+39	 4303 Greenville 100 Hadley Rd, #7 62,454 $32.32 $2,018,623.00
+39	 3521 Covington Twp 921 Drinker Tpke, Ste 23 70,777 $28.49 $2,016,391.52
+39	 255 Cheswick Cheswick Plz 1302 Pittsburgh St 66,403 $30.14 $2,001,061.89
+39	 2111 Enola E Penn Ctr 736 Wertzville Road 73,465 $27.16 $1,995,512.51
+39	 4902 Coal Twp The Plz At Coal Twp 9345 State Rte 61 65,609 $30.40 $1,994,591.22
+39	 252 Pittsburgh 4643 Centre Ave 82,786 $24.09 $1,994,309.12
+40	 4803 Pen Argyl 1375 Blue Valley Dr 78,252 $25.46 $1,992,403.69
+40	 6509 Mt Pleasant 208 Countryside Plz 73,864 $26.87 $1,984,628.84
+40	 4818* Bethlehem 3030 Emrick Blvd (Rear) 19,546 $101.53 $1,984,456.41
+40	 2802 Waynesboro Wayne Heights Mall 1507-1509 E Main St 63,315 $31.30 $1,981,696.25
+40	 5408 Pottsville 888 Gordon Nagle Trail 67,262 $29.35 $1,974,203.45
+40	 1006 Butler 340 Greater Butler Mart 61,437 $32.04 $1,968,547.03
+40	 283 Natrona Heights Heights Plz 1632 Pacific Ave 75,725 $25.85 $1,957,288.49
+40	 5127 Philadelphia 2511 W Girard Ave 109,570 $17.73 $1,943,152.34
+40	 5174 Philadelphia Baker’s Centre, Space #6-A 3413 Fox St 69,252 $28.06 $1,943,131.21
+41	 4809 Bath Bath Shopping Ctr 362 S Walnut St 66,259 $29.32 $1,942,668.20
+41	 2218 Hershey 731 Cherry Dr 75,737 $25.64 $1,941,915.17
+41	 5403 Tamaqua 141 N Railroad St 71,429 $26.92 $1,922,817.04
+41	 2317 Ridley Park 12 E Hinckley Ave 81,265 $23.63 $1,920,273.10
+41	 4028 Wilkes-Barre 850 Sans Souci Pky 73,490 $26.09 $1,917,562.33
+41	 6102 Franklin 541 Allegheny Blvd 62,813 $30.51 $1,916,306.07
+41	 2325 Aston 3486 Concord Rd, Str 11 83,025 $23.07 $1,915,357.07
+41	 5202 Hawley Vill Ctr At Lords Valley Hc8 Box 8416, Rt 739 71,775 $26.52 $1,903,596.08
+41	 9210 Verona Community Plz 1103 Milltown Rd 74,332 $25.52 $1,897,310.88
+41	 1008 Slippery Rock Slippery Rock Plz, Ste 2 223 Grove City Rd 74,618 $25.36 $1,891,967.89
+42	 1304 Lehighton 143 South St 68,558 $27.50 $1,885,097.51
+42	 610 Kenhorst 300 Kenhorst Plz 77,609 $24.28 $1,884,042.80
+42	 4107 Montoursville 803 N Loyalsock Ave 65,881 $28.54 $1,880,370.09
+42	 2517 Erie 3412 W Lake Rd 53,946 $34.82 $1,878,602.39
+42	 2402 St Marys St Marys Plz Shopping Ctr 832 S St Marys Rd 59,473 $31.58 $1,878,313.72
+42	 3505 Old Forge 305 S Main St 60,277 $31.12 $1,875,844.52
+42	 3605 Manheim Manheim Shopping Ctr 97 Doe Run Rd 67,138 $27.85 $1,869,678.49
+42	 617 Womelsdorf Tulpehocken Village Shopping Ctr 430 N Third St 62,702 $29.74 $1,864,532.73
+42	 202 Verona River Town Shops 90 Allegheny River Blvd 67,880 $27.45 $1,863,572.01
+42	 4106 Williamsport 2067 Lycoming Creek Rd 67,877 $27.36 $1,857,303.24
+43	 2513 Erie E Erie PlZ Shopping Ctr 828 E Sixth St 73,149 $25.24 $1,846,425.69
+43	 2108 Enola Summerdale Plz Shopping Ctr 443 N Enola Rd 64,880 $28.43 $1,844,271.43
+43	 2520 Girard Imperial Point Plz 9135 Ridge Rd 63,173 $29.02 $1,833,413.77
+43	 273 Pittsburgh 3202 Brighton Rd 90,547 $19.92 $1,803,397.13
+43	 3702 Ellwood City 729 Lawrence Ave 59,976 $30.00 $1,799,531.41
+43	 5802 Montrose Price Chopper Plz 16750 State Rte 706, Ste 6 53,586 $33.58 $1,799,377.11
+43	 408 New Brighton 816 3rd Ave 73,197 $24.34 $1,781,761.22
+43	 908 Penndel Us 1 Plz 315 W Lincoln Hwy 74,008 $23.89 $1,768,161.06
+43	 1705 Clearfield Clearfield Mall 1824 Daisy St 61,650 $28.57 $1,761,367.30
+43	 206 Mckees Rocks 136 Mckees Rocks Plz 84,457 $20.79 $1,755,771.14
+44	 281 Glenshaw 1706 Mt Royal Blvd 68,495 $25.49 $1,745,973.08
+44	 6506 Mount Pleasant 656 Main St 30,099 $57.93 $1,743,636.36
+44	 242 Monroeville Haymaker Village Shops 4524 Broadway Blvd 66,428 $26.13 $1,735,885.92
+44	 4025 Conyngham Valley Plz 653 State Rte 93, Str 3 60,544 $28.52 $1,726,679.57
+44	 217 Coraopolis 1110 Fourth Ave 67,495 $25.52 $1,722,598.14
+44	 4634 Norristown 2014 Old Arch Rd, Str 4 75,633 $22.45 $1,697,733.38
+44	 236 Elizabeth 820 Mckeesport Rd 63,443 $26.72 $1,694,984.90
+44	 297 West Mifflin Village Shopping Ctr 1874 Homeville Rd 57,685 $29.34 $1,692,211.77
+44	 936 New Britain Town Ctr Shopping Ctr 300 Town Ctr 66,618 $25.32 $1,687,100.23
+44	 802 Towanda 85 Reuter Blvd 58,048 $29.05 $1,686,067.71
+45	 6701 York Yorktowne Mall 131 N Duke St, Ste 4 67,468 $24.93 $1,682,157.33
+45	 6511 Belle Vernon 4627 Rte 51, Ste 520 57,506 $29.23 $1,681,115.00
+45	 1302 Jim Thorpe 1215 N St 47,400 $35.26 $1,671,406.74
+45	 6514 Vandergrift 147 Columbia Ave 55,065 $30.27 $1,666,977.96
+45	 4806 Nazareth 34 S Broad St 62,827 $26.46 $1,662,333.79
+45	 4802 Easton 111 Northampton St 71,488 $23.10 $1,651,601.99
+45	 5903 Wellsboro 16 Crafton St 52,774 $31.01 $1,636,763.63
+45	 4002 Wilkes-Barre 7 George Ave 66,081 $24.69 $1,631,812.85
+45	 4904 Milton Weis Market Shopping Ctr 551 Mahoning St 59,785 $27.24 $1,628,283.33
+45	 4816 Wind Gap Wind Gap Plz 813 Male Rd 63,307 $25.64 $1,622,886.80
+46	 1603 Clarion 78 Clarion Plz 53,005 $30.61 $1,622,607.27
+46	 204 Homestead 139 E 8th Ave 65,203 $24.78 $1,615,765.73
+46	 3523 Eynon 771 Scranton Carbondale Hwy 53,508 $29.82 $1,595,679.83
+46	 2504 North East Plz 10720 W Main St 52,822 $29.96 $1,582,382.40
+46	 5905 Mansfield Mansfield Plz 181 N Main St 51,561 $30.58 $1,576,653.03
+46	 4023 W Pittston 801 Wyoming Ave 59,268 $26.56 $1,574,355.18
+46	 6522 New Stanton 111 Westmore Ave 52,747 $29.83 $1,573,566.66
+46	 223 Pittsburgh 126 Grant Ave 63,379 $24.57 $1,557,321.35
+46	 219 West Mifflin Kennywood Shops 1326 Hoffman Blvd 73,858 $20.79 $1,535,377.41
+46	 6510 Lower Burrell 249 Hillcrest Shopping Ctr 3220 Leechburg Rd 54,605 $27.87 $1,521,651.55
+47	 403 Ambridge 999 Merchant St 60,292 $25.06 $1,510,661.95
+47	 3001 Waynesburg Widewaters Commons 55 Sugar Run Rd, Ste 105 53,750 $27.97 $1,503,587.88
+47	 2515 Erie Commodore Perry Plz 2208 Broad St 70,228 $21.23 $1,490,597.00
+47	 5412 Schuylkill Haven 515 Dock St 53,047 $27.91 $1,480,775.39
+47	 9209 Monroeville Monroeville Mall 326-328 Mall Blvd 49,927 $29.60 $1,477,758.51
+47	 3612 Gap Village At Gap Shopping Ctr 5360 Lincoln Hwy, Str 14 52,325 $28.16 $1,473,662.27
+47	 2002 Titusville 126 S Martin St 51,769 $28.39 $1,469,646.06
+47	 6304 Charleroi 105 3rd St 45,613 $32.01 $1,459,924.73
+47	 3706 New Castle 4 Cascade Galleria 100 S Jefferson St 67,000 $21.74 $1,456,418.35
+47	 5002 Duncannon 53 Main St 46,073 $31.61 $1,456,271.14
+48	 402 Hopewell Twp Green Garden Shopping Ctr 3113 Green Garden Rd 55,707 $26.06 $1,451,641.82
+48	 1601 Clarion 800 Ctr 845 Main St 43,098 $33.36 $1,437,898.07
+48	 9203 Leetsdale 3 Quaker Village Shopping Ctr 48,778 $29.28 $1,428,022.57
+48	 5409 Orwigsburg Federal Sq 705 W Market St, Ste 3 38,775 $36.75 $1,425,113.32
+48	 3302 Punxsutawney 567 W Mahoning St 47,058 $30.28 $1,424,745.22
+48	 6516 Jeannette Penn Crossing Shopping Ctr 2012 Penny Ln 50,678 $28.04 $1,420,913.99
+48	 1706 Philipsburg 4A Peebles Plz 56,368 $25.12 $1,416,160.92
+48	 4017 Plains Plains Plz 21 N River St 53,372 $26.52 $1,415,535.24
+48	 2204 Steelton 325 N Front St 58,706 $24.08 $1,413,688.05
+48	 6311 California 327 Third St 49,729 $27.40 $1,362,483.39
+49	 1524 Oxford Oxford Sq Shopping Ctr 449 N Third St 54,917 $24.57 $1,349,320.73
+49	 2506 Corry Corry Plz 350 W Columbus Ave 45,712 $29.41 $1,344,385.56
+49	 4301 Sharon Sharon Ctr City Shopping Ctr 120 S Water Ave 58,398 $22.60 $1,319,865.08
+49	 6306 Monongahela 245 W Main St 51,688 $25.46 $1,316,015.78
+49	 6505 New Kensington 328 Central City Plz 61,343 $21.41 $1,313,622.30
+49	 412 Baden Northern Lights Shoppers City 1603 State St, W 51,798 $25.24 $1,307,288.91
+49	 6101 Oil City Seneca St Plz 50 Seneca St 43,410 $30.00 $1,302,345.81
+49	 6706 Manchester Chester Sq Shopping Ctr 4169 N George St Extended 53,970 $24.10 $1,300,432.56
+49	 279 Pittsburgh 722 Brookline Blvd 58,578 $22.13 $1,296,158.09
+49	 5402 Shenandoah 9 Gold Star Plz 50,987 $25.26 $1,288,033.88
+50	 205 Mckeesport 149 5th Ave 76,797 $16.71 $1,283,394.44
+50	 2315 Boothwyn 643 Conchester Pike 34,168 $37.05 $1,265,915.76
+50	 4604 Pottstown 212 E High St 69,372 $17.97 $1,246,447.55
+50	 2213 Halifax 3775 Peters Mountain Rd 43,469 $28.65 $1,245,466.61
+50	 244 Glassport 739 Monongahela Ave 52,124 $23.84 $1,242,439.87
+50	 3501 Moosic 3364 Birney Plz 42,783 $28.96 $1,239,167.85
+50	 6504 Jeannette 114 S Fifth St 43,485 $28.34 $1,232,247.23
+50	 1110 Ebensburg 607 W High St 40,355 $30.28 $1,221,768.20
+50	 902 Doylestown 19 W Court St 28,736 $42.50 $1,221,157.04
+50	 4103 Jersey Shore 354 Allegheny St 43,954 $27.77 $1,220,809.10
+51	 2219 Harrisburg 333 Market St 50,111 $24.22 $1,213,855.22
+51	 5171 Philadelphia 4177 Ridge Ave 51,028 $23.76 $1,212,589.70
+51	 1401 Bellefonte 114 N Spring St 43,076 $28.12 $1,211,127.49
+51	 2316 Newtown Sq Newtown Sq Shopping Ctr 3590 West Chester Pike 48,776 $24.51 $1,195,547.50
+51	 3201 Blairsville 215 E Market St 40,101 $29.61 $1,187,468.13
+51	 4304 Mercer 535 Greenville Rd 40,478 $29.22 $1,182,575.14
+51	 1106 Ebensburg College Plz 881 Hills Plz Dr, Ste 10 39,950 $29.58 $1,181,851.06
+51	 271 Munhall 3408 Main St 49,556 $23.71 $1,175,048.29 518 2803 Greencastle Greencastle Market Pl Shopping Ctr
+51	 N Antrim Way 44,422 $26.29 $1,167,843.40
+51	 4503 Cresco 1152 Rte 390 41,202 $28.01 $1,154,208.38
+52	 3701 New Castle Lawrence Village Plz 2656 Ellwood Rd 47,291 $24.34 $1,151,249.66
+52	 3707 New Castle Westgate Shopping Ctr 2034 W State St 40,427 $28.42 $1,148,767.67
+52	 4616 Schwenksville 100 Main St 44,147 $25.79 $1,138,450.02
+52	 5603 Windber 1607 Jefferson Ave 34,077 $32.93 $1,122,226.83
+52	 6002 Mifflinburg 30 E Chestnut St 40,371 $27.70 $1,118,413.67
+52	 601 Reading 537 Penn St 63,147 $17.53 $1,107,230.12
+52	 6305 Mcdonald Mcdonald Shopping Plz 301 W Barr St 38,132 $28.82 $1,098,824.97
+52	 6103 Cranberry 17 Kimberly Ln, Unit 6 47,310 $23.22 $1,098,436.25
+52	 4020 White Haven White Haven Shopping Ctr 501 Main St 37,292 $29.25 $1,090,759.93
+52	 212 Pittsburgh 959 Liberty Ave 53,163 $20.42 $1,085,398.78
+53	 3401 Mifflin P.O. Box 350 40,398 $26.41 $1,066,758.09
+53	 5129 Philadelphia 1446 Point Breeze Ave 75,019 $14.08 $1,056,387.92
+53	 9113 Philadelphia 1913 Chestnut St 38,042 $27.63 $1,051,271.22
+53	 704 Tyrone 1260 Pennsylvania Ave 43,541 $23.66 $1,030,010.39
+53	 4109 S Williamsport 510 W Southern Ave 41,608 $24.69 $1,027,327.23
+53	 1101 Johnstown 426 Main St 44,817 $22.77 $1,020,701.51
+53	 4511 Brodheadsville Kinsley Plz 107 Kinsley Dr, Ste 104 39,083 $25.39 $992,277.34
+53	 1001 Butler Pullman Sq Shopping Ctr 180 Pullman Sq, Box 15 43,393 $22.42 $972,941.97
+53	 1104 Cresson 101 Park Ave 37,079 $25.85 $958,467.31
+53	 903 Ottsville 8794 Easton Rd, Ste 1 28,377 $33.63 $954,272.76
+54	 3301 Brookville 160 Main St 32,855 $28.97 $951,844.45
+54	 5301 Coudersport 151 Rte 6 W 32,502 $29.10 $945,953.79
+54	 1103 Northern Cambria 910 Philadelphia Ave, Ste 1 27,460 $33.77 $927,218.35
+54	 2004 Linesville 211 E Erie St 24,607 $36.09 $887,983.56
+54	 5413 Pine Grove 16 Tremont Rd 28,118 $30.81 $866,322.09
+54	 6502 Latrobe 313 Depot St 26,111 $33.13 $865,173.76
+54	 3002 Carmichaels Brodak Commons 554 S 88 Rd 32,059 $26.38 $845,807.55
+54	 4504 Stroudsburg 761 Main St 20,073 $40.07 $804,254.42
+54	 5701 Dushore 121 W Main St 27,000 $28.60 $772,088.09
+54	 5102 Philadelphia 4346 Frankford Ave 50,619 $15.14 $766,537.36
+55	 1115 Johnstown 20th Ward Shopping Ctr 358 N Sheridan St 34,094 $22.41 $764,203.94
+55	 4618 Norristown 504 W Marshall St 39,266 $19.46 $763,937.76
+55	 4619 Bridgeport 24 E 4th St 27,302 $27.50 $750,691.19
+55	 5148 Philadelphia 1111 Locust St 21,570 $34.55 $745,155.42
+55	 2202 Harrisburg 1200 N 3rd St 40,835 $18.11 $739,636.24
+55	 1303 Palmerton 221 Delaware Ave 26,791 $26.77 $717,126.32
+55	 3621 Lancaster The Shoppes At Landis Valley 2347 Oregon Pike, Ste 105 22,717 $31.05 $705,396.42
+55	 2205 Lykens 529 S Market St 22,257 $31.45 $700,045.66
+55	 2318 Chester 2709 W 9th St 39,127 $17.88 $699,513.63
+55	 6503 Monessen 925 Donner Ave 20,843 $32.74 $682,305.79
+56	 4202 Kane 124 Fraley St 20,360 $32.87 $669,241.59
+56	 270 Pittsburgh 3643 California Ave 31,507 $21.11 $665,100.17
+56	 2401 Ridgway 305 N Broad St 19,875 $33.20 $659,851.72
+56	 804 Wyalusing 41871 Rte 6 21,253 $30.65 $651,361.11
+56	 302 Kittanning 137 S Jefferson St 16,429 $39.28 $645,315.74
+56	 1407 Bellefonte Weis Market Shopping Ctr 178 Buckaroo Ln 20,801 $30.34 $631,035.39
+56	 4612 Hatboro 225 N York Rd 23,648 $26.61 $629,361.83
+56	 303 Leechburg 163 Third St 17,180 $35.68 $612,983.88
+56	 4901 Mount Carmel 136 S Oak St 20,624 $29.51 $608,665.91
+56	 265 Russellton 908 Little Deer Creek Rd P.O. Box 295 20,558 $29.22 $600,677.26
+57	 6312 Fredericktown 524 Front St 16,410 $36.55 $599,745.18
+57	 5803 Susquehanna The Shops 236 Erie Blvd 17,933 $33.31 $597,274.82
+57	 803 Troy 752 Canton St 16,786 $35.46 $595,186.07
+57	 2901 Mcconnellsburg Ayr Town Ctr 362 S Second St 20,201 $28.13 $568,347.07
+57	 1111 Portage 3670 Portage St, Ste 3 16,976 $33.07 $561,450.00
+57	 6307 Burgettstown Kwik Stop Plz 2038 Smith Twp Rd, Ste 2 18,737 $29.05 $544,323.74
+57	 2512 Union City 66 N Main St 18,148 $29.92 $543,069.34
+57	 3102 Mt Union 25 W Water St 20,773 $25.65 $532,818.21
+57	 6203 Youngsville 107 E Main St 15,209 $34.39 $522,967.64
+57	 6508 Irwin 310 Main St 15,696 $32.72 $513,570.36
+58	 4302 Farrell 837 Sharon New Castle Rd 24,013 $21.36 $513,003.52
+58	 1004 Petrolia 102 Main St 9,595 $49.49 $474,817.82
+58	 1301 Lansford 46 W Ridge St 20,403 $23.14 $472,109.49
+58	 307 Apollo 206 N Warren Ave 17,796 $26.48 $471,274.94
+58	 405 Midland 508 Midland Ave 17,670 $26.07 $460,743.35
+58	 2604 Masontown 1890 Mcclellandtown Rd 16,758 $26.46 $443,404.51
+58	 1201 Emporium 54 E Fourth St 13,200 $32.74 $432,147.23
+58	 5904 Westfield 126 W Main St 11,191 $38.42 $429,952.75
+58	 2608 Perryopolis 3532 Pittsburgh Rd, Ste A 14,167 $29.17 $413,226.99
+58	 2702 Tionesta 644 Elm St 13,794 $29.42 $405,878.71
+59	 4203 Smethport 433 W Main St 12,465 $32.08 $399,890.65
+59	 5801 Forest City 605 Main St 13,700 $29.08 $398,399.13
+59	 4204 Port Allegany 66 Mill St 12,689 $29.76 $377,642.09
+59	 2804 Mercersburg 9 S Main St 8,374 $44.95 $376,408.13
+59	 1602 New Bethlehem 452 Broad St 11,576 $31.36 $363,069.41
+59	 2701 Marienville 121 Chestnut St 10,332 $32.79 $338,751.94
+59	 5302 Galeton 17 West St 10,759 $30.80 $331,332.26
+59	 6704 Manchester East Manchester Village Ctr Glen Dr, Ste #185-195 12,500 $24.65 $308,172.14
+59	 1604 Knox 506 Main St 7,272 $41.73 $303,441.65
+59	 5404 Ashland 630 Centre St 10,764 $28.11 $302,537.57
+60	 3303 Brockway 445 Main St 8,086 $36.77 $297,332.71
+60	 3203 Clymer 560 Franklin St 7,714 $37.74 $291,143.65
+60	 1703 Houtzdale 821 Centennial St 9,853 $29.43 $289,943.59
+60	 502 Saxton 600 Main St 9,414 $30.67 $288,720.88
+60	 5405 Frackville 500 W Oak St 10,025 $27.88 $279,514.05
+60	 1107 East Conemaugh 513 Chestnut St 6,694 $39.65 $265,410.21
+60	 5606 Boswell 212 Ohio St 7,834 $31.13 $243,840.10
+60	 5406 Mahanoy City 7 S Main St 8,671 $26.23 $227,470.96
+60	 6513 Avonmore P.O. Box 38 6,835 $32.38 $221,296.78
+60	 1704 Curwensville 449 State St 7,192 $28.29 $203,451.04
+61	 6202 Sheffield 212 S Main St 6,167 $31.48 $194,124.55
+61	 3305 Reynoldsville 410 Main St 6,037 $31.32 $189,093.45
+61	 5601 Meyersdale 686 Market Sq 4,004 $46.18 $184,906.78
+61	 1403 Snow Shoe 15 W Olive St 4,781 $32.90 $157,317.36
+61	 2605 Point Marion 213 Penn St 3,965 $33.52 $132,894.68
+61	 5001 Newport 8 Newport Plz 3,154 $28.09 $88,587.91
+61	 4811 Wind Gap 15 N Broadway 3,037 $22.87 $69,463.52
