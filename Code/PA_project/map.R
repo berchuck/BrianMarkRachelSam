@@ -327,10 +327,33 @@ g <- ggplot(df1,
             aes(x=long, y=lat, group=group, fill=year_sales,
                 frame = type)) 
    
-PAnimate <- g+  geom_polygon(aes(frame = type),col="#000000")+coord_map() +
-  # ggtitle("2013 Liquor Sales by County")+
-  scale_fill_gradient("sales",low=scales::muted('blue'), 
-                      high=scales::muted('green') )
-gg_animate(PAnimate, interval = 1)
+# ggplot(df1, aes(year_sales, colour = type)) +
+#   geom_freqpoly(binwidth = 1000)
+# 
+newscale <- c(
+  min(df1[df1$type=='diff_sales',]$year_sales),
+  0,
+  median(df1[df1$type=='diff_sales',]$year_sales),
+  max(df1[df1$type=='diff_sales',]$year_sales),
+  quantile(df1[df1$type=='total_sales',]$year_sales, .25),
+  median(df1[df1$type=='total_sales',]$year_sales),
+  quantile(df1[df1$type=='total_sales',]$year_sales, .75),
+  max(df1[df1$type=='total_sales',]$year_sales)
+)
 
-gg_animate(PAnimate, "PAnimate.gif", interval = 3)
+PAnimate <- g +  geom_polygon(aes(frame = type),col="#000000") +
+  coord_map() +
+  # ggtitle("2013 Liquor Sales by County")+
+#   scale_fill_gradient("sales", low=scales::muted('lightblue'), 
+#                       high=scales::muted('red'))#, guide="legend" )
+#   scale_fill_gradientn(colours=c("darkblue", "blue", "lightblue",
+#                                  
+#                                  "yellow", "green", "lightgreen", "yellow"),
+#                        values=scales::rescale(newscale,to=0:1))
+scale_fill_distiller( type = "seq",# guide="legend", # palette = "Diamond\nclarity", 
+                   direction = 1, values = scales::rescale(newscale,to=0:1))
+
+
+gg_animate(PAnimate, interval = 5)
+
+gg_animate(PAnimate, "PAnimate.gif", interval = 5)
