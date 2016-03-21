@@ -2,7 +2,7 @@ opar<-par()
 setwd('C:/Users/Brian G. Barkley/Dropbox/PA/BrianMarkRachelSam/Code/PA_project/')
 
 ###Load Libraries
-install.packages('ggmap')
+# install.packages('ggmap')
 library(ggmap)
 library(RgoogleMaps)
 
@@ -23,8 +23,12 @@ library(xtable)
 library(INLA)
 library(maptools)
 library(mvtnorm)
+# install.packages('gganimate')
+library(gganimate)
 # library(Hmisc)
-
+# install.packages("installr")
+# require(installr)
+# updateR()
 # 
 # # #make a map of pennsylvania from a 779 homework (useless) ---------------------------------------------------------------------
 # 
@@ -65,7 +69,7 @@ yearly_sales$logCountyShareRY2013.14 <- log(yearly_sales$CountyShareRY2013.14)
 
 plot( yearly_sales$logCountyShareRY2013.14 , yearly_sales$diff1213_1314)
 
-sales_counties<-as.character(yearly_sales$County)
+sales_counties <- as.character(yearly_sales$County)
 sales_counties <- tolower(sales_counties)
 sales_counties <- sales_counties[sales_counties!="total"]
 sales_counties %in% pa_counties$subregion
@@ -159,7 +163,8 @@ set.seed(22)    # for reproducible example
 pa_county_map_data<-map_data("county","pennsylvania")
 
 pa_counties   <- unique(pa_county_map_data[,5:6])
-sales_map <- data.frame(state_names=pa_counties$region,  
+sales_map <- data.frame(stringsAsFactors = FALSE,
+                        state_names=pa_counties$region,  
                         county_names=pa_counties$subregion, 
                         sales_13    = yr_sales$DollarSalesRY2012.13,
                         sales_14    = yr_sales$DollarSalesRY2013.14,
@@ -169,8 +174,8 @@ sales_map <- data.frame(state_names=pa_counties$region,
                         sqrtsales_diff = yr_sales$sqrtsales_diff,
                         sales_share = yr_sales$CountyShareRY2013.14,
                         sales_logshare = yr_sales$logCountyShareRY2013.14) 
-                                                  #runif(nrow(pa_counties), min=0, max=100))
-
+         
+  
 # you start here...
 # from URL http://stackoverflow.com/questions/23714052/ggplot-mapping-us-counties-problems-with-visualization-shapes-in-r
 
@@ -236,3 +241,85 @@ save(locs_ds, file='C:/Users/Brian G. Barkley/Dropbox/PA/BrianMarkRachelSam/Code
 
 
 
+
+
+# GGanimating map ---------------------------------------------------------
+
+#runif(nrow(pa_counties), min=0, max=100))
+
+# library(magrittr)
+# library(tidyr)
+# library(dplyr)
+
+sales_map_tidy <- sales_map %>% 
+  tidyr::gather(type, year_sales, (sales_13:sales_logshare),
+                convert=TRUE) 
+
+sales_map_tidy$year <- NA
+
+myfun1 <- function(str, type){
+  
+  if(!is.element(type, c("scale", "year")) ){
+    stop("type must either equal 'scale' or 'year'")
+  } else
+    if (type == "scale"){
+      out <-  switch(str,
+                     'sales_13' = "total_sales",
+                     'sales_14' = "total_sales",
+                     'logsales_13' = "log_sales",
+                     'logsales_14' = "log_sales",
+                     'sqrtsales_14' = "sqrt_sales",
+                     'sales_diff' = "diff_sales",
+                     'sqrtsales_diff' = "sqrt_diff_sales",
+                     'sales_share'  = "share_of_sales",
+                     'sales_logshare' = "log_share_of_sales"#,
+                     # 'type not supported'
+                     
+      )
+      return(out)
+    } else {
+      out <-  switch(str,
+                     'sales_13' = '2013',
+                     'sales_14' = "2014",
+                     'logsales_13' = '2013',
+                     'logsales_14' = "2014",
+                     'sqrtsales_14' = "2014",
+                     'sales_diff' = "2013-2014",
+                     'sqrtsales_diff' = "2013-2014",
+                     'sales_share'  = "201NA",
+                     'sales_logshare' = "201NA"#,
+                     # 'type not supported'
+                     
+      )
+      return(out)
+    }
+  
+}
+
+for (ii in 1:nrow(sales_map_tidy)){
+  sales_map_tidy$year[ii] <- myfun1(str = sales_map_tidy$type[ii],
+                                    type = "year")
+  sales_map_tidy$type[ii] <- myfun1(str = sales_map_tidy$type[ii],
+                                    type = "scale")
+}
+
+
+library(data.table)   # use data table merge - it's *much* faster
+map_county <- data.table(map_data('county'))
+setkey(map_county,region,subregion)
+tidy_map <- data.table(sales_map_tidy) 
+setkey(tidy_map,state_names,county_names)
+map_df      <- map_county[tidy_map]
+
+# pdf(paste("Plots/SalesMap-", Sys.Date(), ".pdf", sep=""), 8,5)
+g <- ggplot(dplyr::filter(map_df, type == "total_sales", year=='2013'), 
+            aes(x=long, y=lat, group=group, fill=year_sales,
+                frame = year)) 
+  
+PAnimate <- g+  geom_polygon(aes(frame = year),col="#000000")+coord_map() +
+  # ggtitle("2013 Liquor Sales by County")+
+  scale_fill_gradient("totalsales",low=scales::muted('blue'), 
+                      high=scales::muted('green') )
+gg_animate(PAnimate)
+
+gg_animate(PAnimate, "PAnimate.gif")
