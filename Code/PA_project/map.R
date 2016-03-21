@@ -2,7 +2,7 @@ opar<-par()
 setwd('C:/Users/Brian G. Barkley/Dropbox/PA/BrianMarkRachelSam/Code/PA_project/')
 
 ###Load Libraries
-# install.packages('ggmap')
+# install.packages('mvtnorm')
 library(ggmap)
 library(RgoogleMaps)
 
@@ -155,7 +155,7 @@ locs_ds3 <- locs_ds[good_rows,]
 geocodeQueryCheck()
 
 # Make a general areal map -------------------------------------------------------
-
+# install.packages('ggplot2')
 library(ggplot2)
 # this creates an example formatted as your obesity.map - you have this already...
 set.seed(22)    # for reproducible example
@@ -246,10 +246,10 @@ save(locs_ds, file='C:/Users/Brian G. Barkley/Dropbox/PA/BrianMarkRachelSam/Code
 # GGanimating map ---------------------------------------------------------
 
 #runif(nrow(pa_counties), min=0, max=100))
-
-# library(magrittr)
-# library(tidyr)
-# library(dplyr)
+# install.packages('tidyr')
+library(magrittr)
+library(tidyr)
+library(dplyr)
 
 sales_map_tidy <- sales_map %>% 
   tidyr::gather(type, year_sales, (sales_13:sales_logshare),
@@ -303,7 +303,7 @@ for (ii in 1:nrow(sales_map_tidy)){
                                     type = "scale")
 }
 
-
+# install.packages('data.table')
 library(data.table)   # use data table merge - it's *much* faster
 map_county <- data.table(map_data('county'))
 setkey(map_county,region,subregion)
@@ -311,15 +311,26 @@ tidy_map <- data.table(sales_map_tidy)
 setkey(tidy_map,state_names,county_names)
 map_df      <- map_county[tidy_map]
 
+# install.packages('devtools')
+# library(devtools)
+# devtools::install_github("dgrtwo/gganimate")
+# library(gganimate)
+# library(gapminder)
+# install.packages('ImageMagick')
 # pdf(paste("Plots/SalesMap-", Sys.Date(), ".pdf", sep=""), 8,5)
-g <- ggplot(dplyr::filter(map_df, type == "total_sales", year=='2013'), 
-            aes(x=long, y=lat, group=group, fill=year_sales,
-                frame = year)) 
-  
-PAnimate <- g+  geom_polygon(aes(frame = year),col="#000000")+coord_map() +
-  # ggtitle("2013 Liquor Sales by County")+
-  scale_fill_gradient("totalsales",low=scales::muted('blue'), 
-                      high=scales::muted('green') )
-gg_animate(PAnimate)
+df1 <- dplyr::filter(map_df, 
+                     ((type == "total_sales")&(year=='2013')) |
+                       ((type =="diff_sales"))
+)
 
-gg_animate(PAnimate, "PAnimate.gif")
+g <- ggplot(df1, 
+            aes(x=long, y=lat, group=group, fill=year_sales,
+                frame = type)) 
+   
+PAnimate <- g+  geom_polygon(aes(frame = type),col="#000000")+coord_map() +
+  # ggtitle("2013 Liquor Sales by County")+
+  scale_fill_gradient("sales",low=scales::muted('blue'), 
+                      high=scales::muted('green') )
+gg_animate(PAnimate, interval = 1)
+
+gg_animate(PAnimate, "PAnimate.gif", interval = 3)
